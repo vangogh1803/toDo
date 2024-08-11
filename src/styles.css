@@ -1,0 +1,72 @@
+/* TodoList.css */
+body{
+  background-color: rgb(163, 196, 204);
+}
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkslategray;
+}
+h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(0, 0, 0, 0.491);
+}
+.todo-list {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #3d977d55;
+  border: 1px solid #bfb2b28d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-todo-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #3e8e41;
+
+}
+/* TodoItem.css */
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-text {
+  font-size: 16px;
+}
+
+.remove-btn {
+  background-color: #4f0228;
+  color: #fff;
+  margin: auto 90%; 
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #a30021;
+}
